@@ -7,15 +7,15 @@ body {
   margin: auto;
 }
 
+/* border inputted in "p selector" will affect table/box effects */
 p {
   font-family: "palatino linotype", "book antiqua", palatino, serif;
   font-size: 20px;
-  border: 1px solid #D4A190;
   padding: 1em;
 }
 
 a {
-  color: #90C3D4;
+  color: #000000;
 }
 
 a:hover {
@@ -39,6 +39,14 @@ header {
   margin: auto;
 }
 
+/* add border effects here for correct display
+section for main blurbs that expand the max-width*/
+section {
+  width: 100%;
+  background-color: #B4D2F0;
+}
+
+/* article to label any LEFT MODULE, aside for RIGHT MODULE */
 article {
   float: left;
   border: 1px solid #D4A190;
@@ -57,6 +65,7 @@ aside {
   background-color: #D4A190;
 }
 
+/* clear:both keeps footer from nesting in between articles */
 footer {
   clear: both;
   max-width: 600px;
