@@ -1,0 +1,63 @@
+body {
+  background-color: #735C55;
+  color: #FFFFFF;
+  display: block;
+  max-width: 600px;
+  padding: 4em;
+  margin: auto;
+}
+
+p {
+  font-family: "palatino linotype", "book antiqua", palatino, serif;
+  font-size: 20px;
+  border: 1px solid #D4A190;
+  padding: 1em;
+}
+
+a {
+  color: #90C3D4;
+}
+
+a:hover {
+  color: #FFFFFF;
+  background-color: #B4D2F0;
+  font-size: 24px;
+}
+
+a:visited {
+  color: #FFFFFF;
+  text-decoration: line-through;
+  background-color: #B4D2F0;
+}
+
+p::first-letter {
+  font-size: 36px;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+}
+
+article {
+  float: left;
+  border: 1px solid #D4A190;
+  padding: auto;
+  width: 45%;
+  height: 400px;
+  background-color: #D4A190;
+}
+
+aside {
+  float: right;
+  width: 45%;
+  border: 1px solid #D4A190;
+  padding: auto;
+  height: 400px;
+  background-color: #D4A190;
+}
+
+footer {
+  clear: both;
+  max-width: 600px;
+}
