@@ -52,6 +52,11 @@ h3 {
   text-align: center;
 }
 
+figure {
+  align-content: center;
+  margin: auto;
+}
+
 img {
   align-content: center;
   align-items: center;
