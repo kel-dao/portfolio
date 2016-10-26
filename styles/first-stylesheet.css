@@ -34,6 +34,29 @@ p::first-letter {
   font-size: 36px;
 }
 
+h1 {
+  font-variant: small-caps;
+  text-transform: capitalize;
+  font-size: 48px;
+  color: #D4A190;
+}
+
+h2 {
+  font-variant: small-caps;
+  text-transform: capitalize;
+  font-size: 28px;
+  color: #B4D2F0;
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  align-content: center;
+  align-items: center;
+}
+
 header {
   width: 100%;
   margin: auto;
