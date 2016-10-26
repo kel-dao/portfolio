@@ -54,6 +54,12 @@ h3 {
   text-align: center;
 }
 
+h5 {
+  text-align: center;
+  color: #FFFFFF;
+  font-variant: small-caps;
+}
+
 figure {
   align-content: center;
   margin: auto;
@@ -80,6 +86,7 @@ section {
   width: 100%;
   background-color: #B4D2F0;
   text-align: center;
+  align-items: center;
 }
 
 /* article to label any LEFT MODULE, aside for RIGHT MODULE */
@@ -91,6 +98,7 @@ article {
   height: 400px;
   background-color: #D4A190;
   align-content: center;
+  align-items: center;
 }
 
 aside {
@@ -101,6 +109,7 @@ aside {
   height: 400px;
   background-color: #D4A190;
   align-content: center;
+  align-items: center;
 }
 
 /* clear:both keeps footer from nesting in between articles */
