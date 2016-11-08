@@ -1,27 +1,40 @@
 body {
-  background-color: #735C55;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  background-image: url();
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #000000;
   display: block;
-  max-width: 600px;
-  padding: 4em;
-  margin: auto;
 }
+
+header {
+  background-color: #711937;
+  color: #030128;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  height: 8rem;
+  position: fixed;
+  z-index: 999;
+}
+
 
 /* border inputted in "p selector" will affect table/box effects */
 p {
-  font-family: "palatino linotype", "book antiqua", palatino, serif;
+  font-family: 'Poiret One', cursive;
   font-size: 20px;
   padding: 1em;
 }
 
 a {
-  color: #000000;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 a:hover {
   color: #FFFFFF;
   background-color: #B4D2F0;
-  font-size: 24px;
 }
 
 a:visited {
@@ -35,19 +48,41 @@ p::first-letter {
 }
 
 h1 {
+  font-family: 'Poiret One', cursive;
   font-variant: small-caps;
   text-transform: capitalize;
   font-size: 48px;
-  color: #D4A190;
-  text-align: center;
+  color: #030128;
+  text-align: left;
+  z-index: 999;
 }
 
 h2 {
+  font-family: 'Poiret One', cursive;
   font-variant: small-caps;
   text-transform: capitalize;
   font-size: 28px;
-  color: #B4D2F0;
+  color: #030128;
+  text-align: left;
+  position: fixed;
+  top: 4rem;
+  width: 100%;
+  z-index: 999;
+}
+
+nav {
+  font-family: 'Poiret One', cursive;
+  background-color: #420A2B;
+  align-content: center;
   text-align: center;
+  height: 2rem;
+  top: 8rem;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  color: #FFFFFF;
+  font-size: 1rem;
+  padding-top: 0.5rem;
 }
 
 h3 {
@@ -65,50 +100,67 @@ figure {
   margin: auto;
 }
 
-header {
-  width: 100%;
-  margin: auto;
-}
-
-nav {
-  align-content: center;
-  text-align: center;
-}
-
 /* add border effects here for correct display
 section for main blurbs that expand the max-width*/
 section {
   width: 100%;
-  background-color: #B4D2F0;
   text-align: center;
   align-items: center;
+  font-family: 'Poiret One', cursive;
+  margin-top: 11rem;
+  margin-bottom: -4rem;
+  clear: both;
+}
+
+.top img {
+  padding-top: 1rem;
+  object-fit: cover;
+}
+
+.portfolio p {
+  background-color: #030128;
+  color: #F3DABF;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  font-family: 'Poiret One', cursive;
+  margin-top: 11rem;
+  padding: 3rem;
 }
 
 /* article to label any LEFT MODULE, aside for RIGHT MODULE */
 article {
   float: left;
-  border: 1px solid #D4A190;
-  padding: auto;
   width: 45%;
-  height: 400px;
-  background-color: #D4A190;
+  border: 1px solid #F3DABF;
+  padding: 1rem;
+  margin: 0.5rem;
+  height: 15rem;
+  background-color: #F3DABF;
   align-content: center;
   align-items: center;
+  font-family: 'Poiret One', cursive;
 }
 
 aside {
   float: right;
   width: 45%;
-  border: 1px solid #D4A190;
-  padding: auto;
-  height: 400px;
-  background-color: #D4A190;
+  border: 1px solid #F3DABF;
+  padding: 1rem;
+  margin: 0.5rem;
+  height: 15rem;
+  background-color: #F3DABF;
   align-content: center;
   align-items: center;
+  font-family: 'Poiret One', cursive;
 }
 
 /* clear:both keeps footer from nesting in between articles */
 footer {
   clear: both;
-  max-width: 600px;
+  width: 100%;
+  bottom: -1rem;
+  background-color: #711937;
+  color: #FFFFFF;
+  z-index: 999;
 }

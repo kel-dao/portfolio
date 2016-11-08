@@ -1,0 +1,56 @@
+body {
+  background-color: #FFFFFF;
+  background-image: url(http://www.motox1wallpaper.com/wp-content/1HD/Water/FTP2/1600x900/Ink%20water%20wallpaper%2005%201600x900.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #000000;
+  display: block;
+}
+
+h1 {
+  position: fixed; /* or absolute */
+  top: 58%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -120px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 3rem;
+}
+
+h2 {
+  position: fixed; /* or absolute */
+  top: 70%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+}
+
+h3 {
+  position: fixed; /* or absolute */
+  top: 70%;
+  left: 50%;
+  color: #FFFFFF;
+  text-align: center;
+  top: 0;
+  height: 2rem;
+  background-color: black;
+}
+
+h2 a {
+  font-family: 'Poiret One', cursive;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+footer {
+  font-family: 'Poiret One', cursive;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
