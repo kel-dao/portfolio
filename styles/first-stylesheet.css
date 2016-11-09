@@ -12,8 +12,9 @@ header {
   color: #030128;
   width: 100%;
   top: 0;
+  left: -0.2rem;
   margin: 0;
-  padding: 0;
+  padding: 0.5rem;
   height: 8rem;
   position: fixed;
   z-index: 999;
@@ -34,7 +35,7 @@ a {
 
 a:hover {
   color: #FFFFFF;
-  background-color: #A72042;
+  background-color: #030128;
 }
 
 a:visited {
@@ -76,7 +77,8 @@ nav {
   align-content: center;
   text-align: center;
   height: 2rem;
-  top: 8rem;
+  top: 9rem;
+  left: -0.2rem;
   position: fixed;
   width: 100%;
   z-index: 999;
@@ -108,7 +110,7 @@ section {
   text-align: center;
   align-items: center;
   font-family: 'Poiret One', cursive;
-  margin-top: 11rem;
+  margin-top: 13rem;
   margin-bottom: -4rem;
   clear: both;
   padding-bottom: 4rem;
@@ -179,11 +181,21 @@ aside {
   font-family: 'Poiret One', cursive;
 }
 
+aside a {
+  text-align: center;
+  display: inline-block;
+  padding-left: 4rem;
+}
+
+aside a hover {
+  background-color: #F3DABF;
+}
+
 /* clear:both keeps footer from nesting in between articles */
 footer {
   clear: both;
   width: 100%;
-  bottom: -1rem;
+  bottom: -2rem;
   background-color: #711937;
   color: #FFFFFF;
   z-index: 999;
