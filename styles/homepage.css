@@ -48,6 +48,11 @@ h2 a {
   color: #FFFFFF;
 }
 
+summary {
+  font-family: 'Poiret One', cursive;
+  font-size: 1.5rem;
+}
+
 footer {
   font-family: 'Poiret One', cursive;
   width: 100%;
