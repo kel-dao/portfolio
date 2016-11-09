@@ -9,10 +9,10 @@ body {
 
 h1 {
   position: fixed; /* or absolute */
-  top: 58%;
-  left: 50%;
+  top: 53%;
+  left: 44%;
   margin-top: -50px;
-  margin-left: -120px;
+  margin-left: -110px;
   color: #FFFFFF;
   text-align: center;
   font-family: 'Poiret One', cursive;
