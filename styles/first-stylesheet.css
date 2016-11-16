@@ -31,6 +31,7 @@ p {
 a {
   color: #FFFFFF;
   text-decoration: none;
+  transition: 1.5s ease;
 }
 
 a:hover {
@@ -172,22 +173,29 @@ aside {
   float: right;
   width: 45%;
   border: 1px solid #F3DABF;
-  padding: 1rem;
+  padding: 0rem;
+  margin-left: 3rem;
   margin: 0.5rem;
-  height: 15rem;
+  height: 17rem;
   background-color: #F3DABF;
-  align-content: center;
-  align-items: center;
   font-family: 'Poiret One', cursive;
+  align-items: center;
+  align-content: center;
 }
 
 aside a {
   text-align: center;
   display: inline-block;
-  padding-left: 4rem;
+  padding: 1rem;
+  background-color: #F3DABF;
 }
 
 aside a hover {
+  background-color: #F3DABF;
+  width: 300px;
+}
+
+aside a visited {
   background-color: #F3DABF;
 }
 
