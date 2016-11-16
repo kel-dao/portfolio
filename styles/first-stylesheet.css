@@ -188,15 +188,17 @@ aside a {
   display: inline-block;
   padding: 1rem;
   background-color: #F3DABF;
+  transition: background-color 2s linear;
 }
 
 aside a hover {
-  background-color: #F3DABF;
+  background-color: #B4D2F0;
   width: 300px;
 }
 
 aside a visited {
   background-color: #F3DABF;
+  color: black
 }
 
 /* clear:both keeps footer from nesting in between articles */
@@ -209,3 +211,4 @@ footer {
   z-index: 999;
   font-family: 'Poiret One', cursive;
 }
+
